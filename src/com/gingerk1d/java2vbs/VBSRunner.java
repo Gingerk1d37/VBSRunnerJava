@@ -65,12 +65,13 @@ public class VBSRunner {
 	
 	/**
 	 * Runs a VBScript with the passed parameters. Automatically adds double quotes to params with spaces. 
+	 * Script is pulled from java classpath.
 	 * Throws Exception if double quotes passed in parameter list.
 	 * Throws Exception if error with running WScript
 	 * 
 	 * @author gingerk1d
 	 * @date 2015-11-18
-	 * @param absolutePath
+	 * @param scriptClasspath
 	 * @param paramList
 	 * @throws Exception
 	 */
